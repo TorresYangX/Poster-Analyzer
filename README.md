@@ -1,0 +1,92 @@
+# README
+
+![image-20240109183730028](https://github.com/TorresYangX/Poster-Analyzer/blob/main/pics/Introduction.png)
+
+
+
+## Description
+
+A project to implement automatic crawling and analyzing of lecture posters at Southern University of Science and Technology.
+
+
+
+## Contribut
+
+|   SID    |  Name  |
+| :------: | :----: |
+| 12112729 |  杨烜  |
+| 12110813 | 刘圣鼎 |
+| 12110817 | 张展玮 |
+| 12111427 | 勾业备 |
+
+
+
+
+
+## Repository Structure
+
+```
+.
+├── convert.py
+├── get_info.py
+├── get.py
+├── update.py
+├── visualize,py
+├── GUI.py
+├── README.md
+└── stop_words_CN.txts
+```
+
+
+
+## Requirements
+
+- Python 3.9
+
+- numpy 1.24.0
+- pandas 2.0.0
+- matplotlib 3.7.0
+- beautifulsoup4 4.12.0
+- fake_useragent 1.4.0
+- tqdm 4.66.0
+- paddleocr 2.7.0
+- wordcloud 1.9.0
+- jieba 0.42.0
+- ttkbootstrap 1.10.0
+
+
+
+## Usage
+
+```
+python GUI.py
+```
+
+![image-20240109185747686](https://github.com/TorresYangX/Poster-Analyzer/blob/main/pics/GUI.png)
+
+### Poster crawling and analyzing
+
+Crawl the poster and generate information:
+
+- Choose the number of posters to crawl and analyze(one page has the latest 6 posters).
+- Choose the chatgpt or Wenxinyi model we provided.
+- Select the output path for the poster and analysis data.
+- Click "导出".
+
+### Poster statistical analysis
+
+Generate poster word cloud data:
+
+- Select the entry path for the poster information form.
+- Select word cloud and hot word output path.
+- Add stop word (if not, leave it blank)
+- Click "导出".
+
+![词云](https://github.com/TorresYangX/Poster-Analyzer/blob/main/pics/wordcloud.png)
+
+
+
+
+
+
+
