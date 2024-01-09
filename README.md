@@ -10,7 +10,7 @@ A project to implement automatic crawling and analyzing of lecture posters at So
 
 
 
-## Contribut
+## Contributors
 
 |   SID    |  Name  |
 | :------: | :----: |
